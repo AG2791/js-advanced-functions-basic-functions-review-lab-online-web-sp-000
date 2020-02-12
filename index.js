@@ -4,3 +4,10 @@ let mondayWork = function( activity = 'go to office') {
 }  
 
 mondayWork()
+
+ function wrapAdjective(visual = "*") {
+   return function (aug1 = "special") {
+       return `"You are ${visual} ${aug1} ${visual}`
+
+    } 
+  }
