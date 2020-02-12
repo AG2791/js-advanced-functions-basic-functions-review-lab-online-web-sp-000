@@ -7,7 +7,7 @@ mondayWork()
 
  function wrapAdjective(visual = "*") {
    return function (aug1 = "special") {
-       return `"You are ${visual} ${aug1} ${visual}`
+       return `"You are ${visual} ${aug1} ${visual}"`
 
     } 
   }
